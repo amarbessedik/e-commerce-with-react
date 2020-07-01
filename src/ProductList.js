@@ -8,7 +8,7 @@ const ProductList = (props) => {
     <Fragment>
       <div className="hero is-primary">
         <div className="hero-body container">
-          <h4 className="title">Our Products</h4>
+          <h4 className="title">Our Products</h4>    
         </div>
       </div>
       <br />

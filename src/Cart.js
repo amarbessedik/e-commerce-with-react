@@ -45,7 +45,7 @@ const Cart = (props) => {
         ) : (
           <div className="column">
             <div className="title has-text-grey-light">No item in cart!</div>
-          </div>
+          </div>  
         )}
       </div>
     </Fragment>

@@ -36,7 +36,7 @@ export default class App extends Component {
 
   addProduct = (product, callback) => {
     let products = this.state.products.slice();
-    products.push(product);
+    products.push(product); 
     localStorage.setItem("products", JSON.stringify(products));
     this.setState({ products }, () => callback && callback());
   };

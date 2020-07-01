@@ -11,7 +11,7 @@ const withContext = WrappedComponent => {
     };
 
     WithHOC.WrappedComponent = WrappedComponent;
-    return WithHOC;
+    return WithHOC;   
 }
 
 export default withContext;
